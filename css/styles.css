@@ -1,29 +1,152 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+button {
+  cursor: pointer;
+}
+address {
+  font-style: normal;
+}
+img {
+  display: block;
+  max-width: 100%;
+    height: auto;
+}
 
- .font-family {
-    font-family: 'Roboto', sans-serif;
+:root {
+  --main-title-color: #ffffff;
+  --body-title-color: #000;
+  --grey: #F5F4FA;
+  
+}
+.font-family {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  color: var(--body-title-color);
+}
+.text-section li {
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
-    }
-
-
+  background-color: var(--main-title-color);
+  }
 .text-section p {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+background-color: var(--main-title-color);
+}
+.text-section h3 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+  background-color: var(--main-title-color);
+  }
+.command-section {
+    background-color: var(--grey);
 }
 
-.cursor>li>button {
-cursor:pointer;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
+.cursor > li > button {
+  cursor: pointer;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.web-color {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+}
+
+.team-member-name {
+  text-align: center;
+}
+.job-title {
+  text-align: center;
+}
+
+.business {
+
+    width: 1600px;
+  height: 100px;
+  left: 0px;
+  top: 80px;
+  background: #2f303a;
+  text-align: center;
+  color: #FFFFFF;
+}
+.btn {
+  background-color: #2196f3;
+  color: var(--main-title-color);
+}
+.color-footer {
+  background: #2f303a;
+  width: 1600px;
+  height: 252px;
+}
+.color-header {
+   
+    background: var(--grey);
+  width: 1600px;
+
+}
+.color-web {
+  color: #2196f3;
+}
+.portfolio, .contacts, .color-tel-black, .color-mail-black, .studio-black, .color-studio-title {
+    color: var(--body-title-color);
+}
+
+.color-studio,
+.color-address,
+.color-info,
+.color-maps,
+.color-mail,
+.color-tel {
+  color: var(--main-title-color);
+}
+.color-maps, .color-mail, .color-tel {
+margin-left: 215px;
+} 
